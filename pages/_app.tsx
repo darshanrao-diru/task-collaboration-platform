@@ -1,9 +1,9 @@
-import { ReactNode } from 'react';
+import type { ComponentType } from 'react';
 import { ThemeProvider } from 'next-themes';
 import '../styles/globals.css';
 
 interface AppProps {
-  Component: React.ComponentType<any>;
+  Component: ComponentType<any>;
   pageProps: any;
 }
 
